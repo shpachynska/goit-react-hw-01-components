@@ -1,0 +1,31 @@
+.stats {
+  display: flex;
+  width: auto;
+  gap: 15px;
+  margin: 0;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  background-color: rgb(243, 246, 249);
+  border-top: 1px solid rgb(228, 233, 240);
+  list-style: none;
+  
+}
+
+.item {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quantity {
+  font-size: 14px;
+  font-weight: 600;
+}

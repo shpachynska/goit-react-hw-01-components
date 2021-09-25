@@ -1,0 +1,75 @@
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  width: 300px;
+  background-color: rgb(202, 218, 252);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.name {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tag {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.location {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.stats {
+  display: flex;
+  width: auto;
+  gap: 15px;
+  margin: 0;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  background-color: rgb(243, 246, 249);
+  border-top: 1px solid rgb(228, 233, 240);
+  list-style: none;
+  
+}
+
+.listitem {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quantity {
+  font-size: 14px;
+  font-weight: 600;
+}
