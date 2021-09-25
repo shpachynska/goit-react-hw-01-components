@@ -1,8 +1,10 @@
 import Profile from "./components/Profile/Profile";
 import user from './user.json';
 import statisticalData from './statistical-data.json';
+import friends from './friends.json'
 import Section from "./components/Section/Section";
 import Statistics from './components/Statistics/Statistics'
+import FriendList from './components/FriendList/FriendList'
 
 export default function App() {
   return (
@@ -22,6 +24,10 @@ export default function App() {
           stats={statisticalData}          
           />;
 
+      </Section>
+      <Section title="Task 3">
+        <FriendList friends={friends}
+        />;
       </Section>
     </div>
   );
