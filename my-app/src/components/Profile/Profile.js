@@ -1,6 +1,6 @@
 import styles from './Profile.module.css'
 import PropTypes from 'prop-types'
-import noAvatarImg from './no-avatar.png'
+import noAvatarImg from '../../no-avatar.png'
 
 
 

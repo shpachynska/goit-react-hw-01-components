@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import styles from './FriendListItem.module.css'
-import noAvatarImg from './no-avatar.png'
+import noAvatarImg from '../../no-avatar.png'
 
 function FriendListItem({ avatar = noAvatarImg, name, isOnline }) {
     return (
