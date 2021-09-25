@@ -1,0 +1,22 @@
+.table {
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+  border-spacing: 0;
+  background-color: rgb(220, 230, 254);
+  line-height: 40px;
+  font-size: 20px;
+  width: 700px;
+}
+
+.tablehead {
+    background-color: rgb(126, 169, 255);
+    color: #fff;
+    line-height: 50px;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(202, 218, 255);}
+
