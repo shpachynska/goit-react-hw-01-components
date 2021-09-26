@@ -1,12 +1,12 @@
-import Profile from "./components/Profile/Profile";
+import Profile from './components/Profile/Profile';
 import user from './user.json';
 import statisticalData from './statistical-data.json';
 import transactions from './transactions.json';
-import friends from './friends.json'
-import Section from "./components/Section/Section";
-import Statistics from './components/Statistics/Statistics'
-import FriendList from './components/FriendList/FriendList'
-import TransactionHistory from './components/TransactionHistory/TransactionHistory'
+import friends from './friends.json';
+import Section from './components/Section/Section';
+import Statistics from './components/Statistics/Statistics';
+import FriendList from './components/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 export default function App() {
   return (
@@ -21,67 +21,15 @@ export default function App() {
         />
       </Section>
       <Section title="Task 2">
-        <Statistics
-          title="Upload stats"
-          stats={statisticalData}          
-          />;
-
+        <Statistics title="Upload stats" stats={statisticalData} />;
       </Section>
       <Section title="Task 3">
-        <FriendList friends={friends}
-        />;
+        <FriendList friends={friends} />;
       </Section>
 
       <Section title="Task 4">
-        <TransactionHistory items={transactions}          
-        />;
+        <TransactionHistory items={transactions} />;
       </Section>
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//=========== defaults =========================
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
